@@ -1,0 +1,42 @@
+.location {
+  background-color: var(--blue-hero);
+}
+
+.location .container {
+  margin-inline: auto;
+  text-align: center;
+  padding-block: 3.5rem;
+}
+
+.location a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+
+  background-color: var(--red);
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+
+.location p {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.location article {
+  margin-bottom: 2rem;
+}
+
+.location iframe {
+  width: 100%;
+  height: 37.5rem;
+  border-radius: 10px;
+}
+
+@media (width <= 624px) {
+  .location iframe {
+    height: 20rem;
+  }
+}

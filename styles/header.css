@@ -67,7 +67,7 @@
   /* margin-inline: 100; */
 }
 
-@media (width <= 400px) {
+@media (width <= 624px) {
   .header-container section div {
     margin-bottom: 2.5rem;
   }
