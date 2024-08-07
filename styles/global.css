@@ -12,6 +12,10 @@
   --gray-dark: #4A5568;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;

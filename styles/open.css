@@ -42,5 +42,10 @@
   padding: 0.875rem 3rem;
   border-radius: 999rem;
 
-  transition: background-color 0.3s ease;
+  transition: all 0.1s ease-in-out;
+}
+
+.open a:hover {
+  background-color: #032872;
+  transform: scale(1.1);
 }
