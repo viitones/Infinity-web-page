@@ -147,7 +147,23 @@ article + div img {
 }
 
 
-@media (width <= 400px) {
+@media (width <= 1024px) {
+  .hero-container {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .form-container h2 {
+    max-width: 23rem;
+  }
+
+  article + div {
+    grid-template-columns: 1fr 1fr;
+    gap: 1;
+  }
+}
+
+@media (width <= 624px) {
   .hero-container {
     flex-direction: column;
     gap: 5rem;
@@ -158,3 +174,4 @@ article + div img {
     gap: 1;
   }
 }
+

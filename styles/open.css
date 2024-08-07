@@ -1,0 +1,35 @@
+.open {
+  background-color: var(--red);
+  padding-block: 4.5rem;
+}
+
+.open .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.open h2 {
+  color: #ffffff;
+  font-size: 2rem;
+
+  margin-bottom: 1rem;
+}
+
+.open p {
+  color: #ffffff;
+  font-size: 1.2rem;
+
+  margin-bottom: 2rem;
+}
+
+.open a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--blue);
+  padding: 0.875rem 3rem;
+  border-radius: 999rem;
+  transition: background-color 0.3s ease;
+}
