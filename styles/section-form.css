@@ -1,6 +1,9 @@
 .hero {
   background-color: var(--blue-hero);
   padding-block: 6rem;
+  -webkit-box-shadow: inset 0px 0px 53px -32px rgba(0,0,0,0.56);
+  -moz-box-shadow: inset 0px 0px 53px -32px rgba(0,0,0,0.56);
+  box-shadow: inset 0px 0px 53px -32px rgba(0,0,0,0.56);
 }
 
 .hero-container {

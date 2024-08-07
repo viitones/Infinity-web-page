@@ -38,6 +38,10 @@
   padding: 1.5rem 1rem 4rem;
 
   position: relative;
+
+  -webkit-box-shadow: 4px 3px 12px -7px rgba(0,0,0,1);
+  -moz-box-shadow: 4px 3px 12px -7px rgba(0,0,0,1);
+  box-shadow: 4px 3px 12px -7px rgba(0,0,0,1);
 }
 
 .header-container h1 {
@@ -65,6 +69,10 @@
   left: 50%;
   transform: translateX(-50%);
   /* margin-inline: 100; */
+
+  -webkit-box-shadow: 4px 3px 12px -7px rgba(0,0,0,1);
+  -moz-box-shadow: 4px 3px 12px -7px rgba(0,0,0,1);
+  box-shadow: 4px 3px 12px -7px rgba(0,0,0,1);
 }
 
 @media (width <= 624px) {

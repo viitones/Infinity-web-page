@@ -1,6 +1,10 @@
 .open {
   background-color: var(--red);
   padding-block: 4.5rem;
+
+  -webkit-box-shadow: inset 0px 0px 79px -41px rgba(0,0,0,0.47);
+  -moz-box-shadow: inset 0px 0px 79px -41px rgba(0,0,0,0.47);
+  box-shadow: inset 0px 0px 79px -41px rgba(0,0,0,0.47);
 }
 
 .open .container {
