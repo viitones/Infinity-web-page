@@ -1,0 +1,89 @@
+footer {
+  background-color: var(--gray);
+}
+
+footer .container {
+  padding-block: 3rem;
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #5E5E5E;
+}
+
+footer figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+footer figcaption p {
+  margin-top: 0.2rem;
+  font-weight: 600;
+}
+
+footer img {
+  width: 10rem;
+}
+
+footer nav{
+  margin-right: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+footer h3{
+  margin-bottom: 1rem;
+}
+
+footer a{
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+footer a:nth-child(1) {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -o-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+footer a:nth-child(2) {
+  color: #25D366;
+}
+
+footer a:nth-child(3) {
+  color: #3b5998 ;
+}
+
+footer a:nth-child(4) {
+  color: #c4302b  ;
+}
+
+
+
+@media (width <= 624px) {
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer figure {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer nav{
+    margin: 3rem 0;
+    /* text-align: start; */
+    margin-inline: auto;
+  }
+}
