@@ -71,6 +71,7 @@
   text-align: center;
   background-color: var(--blue);
   max-width: 17.5rem;
+  min-height: 28rem;
   padding-bottom: 1.5rem;
 
   border-radius: 10px;
@@ -98,6 +99,8 @@
 
 .card p + p {
   margin-top: 1rem;
+
+  line-height: 130%;
 }
 
 .card:nth-child(even) {
