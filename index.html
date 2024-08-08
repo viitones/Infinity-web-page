@@ -40,14 +40,14 @@
   <section class="hero" id="form-hero">
     <div class="container hero-container">
       <div class="form-container hidden left">
-        <article>
+        <article class="article-form">
             <h2>Preencha o 
             <span>formulário</span> 
             para dar o primeiro passo em sua jornada de aprendizado
             </h2>
         </article>
 
-        <form>
+        <form id="form">
           <fieldset>
             <label for="name">Nome <span>*</span></label>
             <input type="text" id="name" required>
@@ -59,24 +59,44 @@
           <fieldset>
             <label for="phone">Celular <span>*</span></label>
             <input type="text" id="phone" required>
+            <span id="erroTelefone">Número de telefone inválido.</span>
           </fieldset>
           <fieldset>
             <label for="ask">Qual seu objetivo em aprender inglês?<span> *</span></label>
-            <input type="text" id="ask" required>
+            <select name="objetivo" id="ask" required >
+              <optgroup><option value="" selected disabled hidden></option></optgroup>
+              <optgroup><option value="Falar inglês em viagens">Falar inglês em viagens</option></optgroup>
+              <optgroup><option value="Fazer negócios em inglês">Fazer negócios em inglês</option></optgroup>
+              <optgroup><option value="Estudar fora do país em inglês">Estudar fora do país em inglês</option></optgroup>
+              <optgroup><option value="Evoluir profissionalmente">Evoluir profissionalmente</option></optgroup>
+              <optgroup><option value="" disabled hidden></option></optgroup>
+            </select>
           </fieldset>
           <fieldset>
-            <label for="ask">Qual turno se encaixa melhor para você?<span> *</span></label>
-            <input type="text" id="ask" required>
+            <label for="ask2">Qual turno se encaixa melhor para você?<span> *</span></label>
+            <select name="Turno" id="ask2" required>
+              <optgroup><option value="" selected disabled hidden></option></optgroup>
+              <optgroup><option value="Manhã">Manhã</option></optgroup>
+              <optgroup><option value="Tarde">Tarde</option></optgroup>
+              <optgroup><option value="Noite">Noite</option></optgroup>
+              <optgroup><option value="" selected disabled hidden></option></optgroup>
+            </select>
           </fieldset>
           <fieldset>
             <label for="textarea">Tire suas dúvidas:</label>
             <textarea name="textarea" id="textarea" placeholder="Escreva aqui"></textarea>
           </fieldset>
           <p>Ao informar meus dados, eu concordo com a <a href="#">Política de Privacidade</a>.</p>
-          <a href="#">
-            CONCLUIR
-          </a>
+          <button id="finish">
+            Concluir
+          </button>
         </form>
+
+        <dialog>
+          <p>Recebemos sua inscrição. Aguarde nosso contato! :D</p>
+          <button>Fazer nova inscrição</button>
+        </dialog>
+
       </div>
 
       <div class="space hidden right">

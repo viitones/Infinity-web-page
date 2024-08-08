@@ -100,6 +100,9 @@
   margin-top: 1rem;
 }
 
+.card:nth-child(even) {
+  background-color: #00297c;
+}
 
 @media (width <= 400px) {
   .courses article h2 {
