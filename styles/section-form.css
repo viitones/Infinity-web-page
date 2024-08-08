@@ -4,6 +4,7 @@
   -webkit-box-shadow: inset 0px 0px 53px -32px rgba(0,0,0,0.56);
   -moz-box-shadow: inset 0px 0px 53px -32px rgba(0,0,0,0.56);
   box-shadow: inset 0px 0px 53px -32px rgba(0,0,0,0.56);
+  overflow: hidden;
 }
 
 .hero-container {
@@ -47,6 +48,7 @@
 }
 
 .form-container form fieldset input, select, textarea {
+  /* appearance: none; */
   border-radius: 8px;
   border: none;
 

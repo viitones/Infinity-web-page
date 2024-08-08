@@ -23,6 +23,8 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #ffffff;
   line-height: 1.2;
+
+  overflow-x: hidden;
 }
 
 img {
@@ -33,6 +35,10 @@ img {
   width: 100%;
   max-width: 75rem;
   padding-inline: 1rem;
+}
+
+button, textarea, select, a {
+  outline: none;
 }
 
 .left {
@@ -56,12 +62,6 @@ img {
   transform: translateX(0);
 
   transition: opacity 1s , filter 1s, transform 1s;
-}
-
-.none {
-  display: none;
-  filter: blur(15px);
-  transition: all 1s, opacity 1s;
 }
 
 .card:nth-child(1) {
