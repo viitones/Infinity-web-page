@@ -5,7 +5,7 @@
 }
 
 :root {
-  --red: #B92742;
+  --red: #DB3251;
   --blue: #021F59;
   --blue-hero: #002950;
   --gray: #E2E8F0
@@ -77,5 +77,19 @@ img {
 @media (width > 1200px) {
   .container {
     max-width: 90rem;
+  }
+}
+
+@media (width <= 768px) {
+  .card:nth-child(2) {
+    transition-delay: 500ms;
+  }
+  
+  .card:nth-child(3) {
+    transition-delay: 500ms;
+  }
+  
+  .card:nth-child(4) {
+    transition-delay: 500ms;
   }
 }
